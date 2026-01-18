@@ -501,7 +501,7 @@ jobs:
       - name: "📦 Package Kernel | 打包内核"
         run: |
           echo "📦 准备AnyKernel3打包环境..."
-          git clone https://github.com/Xiaomichael/AnyKernel3 --depth=1
+          git clone https://github.com/XiaoGun-zhu/AnyKernel3 --depth=1
           rm -rf ./AnyKernel3/.git
           mkdir -p kernel_workspace/kernel_platform/out/Final-Image-Find/
           dir1=""
